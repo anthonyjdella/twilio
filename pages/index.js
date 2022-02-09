@@ -69,7 +69,7 @@ export default class Home extends React.Component {
               >
                 <h2>What are APIs? &rarr;</h2>
                 <p>
-                  A beginner friendly article about APIs and why they're important.
+                  A beginner friendly article about APIs and why they&apos;re important.
                 </p>
               </a>
             </Link>
