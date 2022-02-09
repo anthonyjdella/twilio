@@ -455,53 +455,6 @@ export default class WhatAreApis extends React.Component {
                                 just understanding what an API is should be
                                 enough to get you started.
                             </p>
-                            {/* </p> */}
-                            <li className={stylesApi.listItem}>
-                                Where can I find an API?
-                            </li>
-                            <p className={stylesApi.description}>
-                                Sometimes, finding the dish you want to order
-                                can be difficult. For example, if you want to
-                                eat pasta, you could either visit the restaurant
-                                that you&apos;ve previously visited, or you
-                                might want to look online for a new restaurant
-                                with good reviews. Other times, you might not
-                                even know what you want to eat.
-                            </p>
-                            <p className={stylesApi.description}>
-                                This idea also applies to APIs. If you want to
-                                use an API, you could either use one that
-                                you&apos;re familiar with, or you could do a
-                                Google search to find what you&apos;re looking
-                                for. But this can be difficult because there are
-                                so many APIs out there. And a lot of times, it
-                                can be hard to find the right API that you need.
-                                Sometimes, you might just want to browse APIs by
-                                categories and see what&apos;s out there.
-                            </p>
-                            <p className={stylesApi.description}>
-                                Well, what if you wanted to make things easier?
-                                You might go to a buffet since you know they
-                                have all types of food. And what if you could
-                                visit an aggregate marketplace for all kinds of
-                                APIs? Wouldn&apos;t that be so much easier?
-                            </p>
-                            <p className={stylesApi.description}>
-                                Thankfully, there&apos;s a product that does
-                                just this!{" "}
-                                <Link href="https://rapidapi.com/">
-                                    <a
-                                        className={stylesApi.link}
-                                        target="_blank"
-                                    >
-                                        RapidAPI
-                                    </a>
-                                </Link>{" "}
-                                is a marketplace/aggregate of APIs, to help you
-                                find the right API for your needs. You can think
-                                of it as a buffet of APIs because it&apos;s got
-                                every possible thing you might need.
-                            </p>
 
                             <li className={stylesApi.listItem}>
                                 Want to Learn more?

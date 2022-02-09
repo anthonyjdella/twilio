@@ -69,8 +69,7 @@ export default class Home extends React.Component {
               >
                 <h2>What are APIs? &rarr;</h2>
                 <p>
-                  Learn more about APIs and how RapidAPI can help find the right
-                  API for your needs.
+                  A beginner friendly article about APIs and why they're important.
                 </p>
               </a>
             </Link>
