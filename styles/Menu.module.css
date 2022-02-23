@@ -2,8 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: .5rem 2.5rem;
+    padding: 0rem .5rem;
     border-bottom: 1px solid #E0E2E6;
+    background-color: #233659;
+    color: #fff;
+    max-height: 3.25rem;
 }
 
 .hamburger {
@@ -32,14 +35,15 @@
 }
 
 .navlink {
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: #475569;
-    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #fff;
 }
 
 .navlink:hover {
-    color: #482ff7;
+    background-color: #3A4A69;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .navlogo {
@@ -48,15 +52,36 @@
     color: #482ff7;
 }
 
+.anthony {
+    font-size: 1.25rem;
+    font-family: whitneymedium;
+    display: flex;
+}
+
+.anthony:hover {
+    background-color: #3A4A69;
+}
+
+.twitter {
+    padding: 1rem;
+    background-color: #F22E46;
+}
+
 .twitter:hover {
     cursor: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" height="64" width="64"><text y="28" font-size="32">🐦</text><path d="M0,2 L0,0 L2,0" fill="red" /></svg>'), auto;
 }
 
-@media only screen and (min-width: 768px) {
+.more {
+    padding: 1rem;
+    background-color: #445472;
+}
+
+
+/* @media only screen and (min-width: 768px) {
     .navbar {
         padding: .5rem 25rem;
     }
-}
+} */
 
 @media only screen and (max-width: 768px) {
     .navmenu {
