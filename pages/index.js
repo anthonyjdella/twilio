@@ -87,6 +87,30 @@ export default class Home extends React.Component {
                         </a>
                     </Link>
 
+                    <Link href="/about">
+                        <a className={`${styles.card}`}>
+                            <h2 className={`${styles.cardTitle}`}>
+                                About Me &rarr;
+                            </h2>
+                            <p className={`${styles.cardBody}`}>
+                                Just some background information about me and
+                                this website.
+                            </p>
+                        </a>
+                    </Link>
+
+                    <Link href="/product-lifecycle">
+                        <a className={`${styles.card}`}>
+                            <h2 className={`${styles.cardTitle}`}>
+                                Product Lifecycle &rarr;
+                            </h2>
+                            <p className={`${styles.cardBody}`}>
+                                I document my thought process during the
+                                creation of this website (so meta).
+                            </p>
+                        </a>
+                    </Link>
+
                     <Link href="/what-are-apis">
                         <a className={`${styles.card}`}>
                             <h2 className={`${styles.cardTitle}`}>
@@ -119,29 +143,6 @@ export default class Home extends React.Component {
                             <p className={`${styles.cardBody}`}>
                                 Where I see myself at Twilio (hopefully) and
                                 along my DevRel journey.
-                            </p>
-                        </a>
-                    </Link>
-
-                    <Link href="/product-lifecycle">
-                        <a className={`${styles.card}`}>
-                            <h2 className={`${styles.cardTitle}`}>
-                                Product Lifecycle &rarr;
-                            </h2>
-                            <p className={`${styles.cardBody}`}>
-                                I document my thought process during the
-                                creation of this website (so meta).
-                            </p>
-                        </a>
-                    </Link>
-
-                    <Link href="/about">
-                        <a className={`${styles.card}`}>
-                            <h2 className={`${styles.cardTitle}`}>
-                                About Me &rarr;
-                            </h2>
-                            <p className={`${styles.cardBody}`}>
-                                Just some background information about me and this website.
                             </p>
                         </a>
                     </Link>
