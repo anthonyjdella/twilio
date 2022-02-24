@@ -86,7 +86,7 @@ export default class MyRoadmap extends React.Component {
                 label: "",
                 style: {
                     width: 280,
-                    backgroundColor: "#F0FFF0",
+                    backgroundColor: "#008CFF",
                     boxShadow: "2px 2px 4px 0px rgba(0,0,0,0.75)",
                 },
                 title: "Personal Backlog",
@@ -169,7 +169,7 @@ export default class MyRoadmap extends React.Component {
                 label: "",
                 style: {
                     width: 280,
-                    backgroundColor: "#F0FFF0",
+                    backgroundColor: "#008CFF",
                     boxShadow: "2px 2px 4px 0px rgba(0,0,0,0.75)",
                 },
                 title: "In-Progress",
@@ -238,7 +238,7 @@ export default class MyRoadmap extends React.Component {
                 label: "3️⃣",
                 style: {
                     width: 280,
-                    backgroundColor: "#F0FFF0",
+                    backgroundColor: "#008CFF",
                     boxShadow: "2px 2px 4px 0px rgba(0,0,0,0.75)",
                 },
                 title: "1-3 Months",
@@ -302,7 +302,7 @@ export default class MyRoadmap extends React.Component {
                 label: "6️⃣",
                 style: {
                     width: 280,
-                    backgroundColor: "#F0FFF0",
+                    backgroundColor: "#008CFF",
                     boxShadow: "2px 2px 4px 0px rgba(0,0,0,0.75)",
                 },
                 title: "3-6 Months",
@@ -331,7 +331,7 @@ export default class MyRoadmap extends React.Component {
                 label: "⭐",
                 style: {
                     width: 280,
-                    backgroundColor: "#F0FFF0",
+                    backgroundColor: "#008CFF",
                     boxShadow: "2px 2px 4px 0px rgba(0,0,0,0.75)",
                 },
                 title: "1 year",
@@ -379,7 +379,7 @@ export default class MyRoadmap extends React.Component {
                 label: "🎉",
                 style: {
                     width: 280,
-                    backgroundColor: "#F0FFF0",
+                    backgroundColor: "#008CFF",
                     boxShadow: "2px 2px 4px 0px rgba(0,0,0,0.75)",
                 },
                 title: "Completed",
@@ -405,7 +405,7 @@ export default class MyRoadmap extends React.Component {
                     <div className={styles.board}>
                         <Board
                             style={{
-                                background: "#26B7C1",
+                                background: "#233659",
                                 width: "75%",
                                 height: "100%",
                             }}
