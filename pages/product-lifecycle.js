@@ -491,6 +491,27 @@ export default class ProductLifecycle extends React.Component {
                                     height={500}
                                 />
                             </div>
+                            <div
+                                className={`${stylesLifeCycle.border} ${stylesLifeCycle.border4}`}
+                                onClick={this._confetti}
+                            >
+                                <Confetti
+                                    active={this.state.showComponent}
+                                    config={this.state.confettiConfig}
+                                />
+                                <Image
+                                    src="/design/deploy-8.png"
+                                    alt="More Features Homepage"
+                                    width={600}
+                                    height={500}
+                                />
+                                <Image
+                                    src="/design/right-arrow.svg"
+                                    alt="Right arrow"
+                                    width={300}
+                                    height={500}
+                                />
+                            </div>
                         </ul>
                     </article>
                 </main>
