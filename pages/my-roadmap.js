@@ -452,14 +452,17 @@ export default class MyRoadmap extends React.Component {
                                 How people from other departments see DevRel
                             </li>
                             <li>
-                                The ins and outs of our product and how developers use it
+                                The ins and outs of our product and how
+                                developers use it
                             </li>
-                            <li>How the documentation platform works, so I can maintain it and add features</li>
+                            <li>
+                                How the documentation platform works, so I can
+                                maintain it and add features
+                            </li>
                         </ul>
                     </p>
-
-                    <Footer />
                 </main>
+                <Footer />
             </div>
         );
     }

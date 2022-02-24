@@ -451,9 +451,8 @@ export default class ProductLifecycle extends React.Component {
                             </div>
                         </ul>
                     </article>
-
-                    <Footer />
                 </main>
+                <Footer />
             </div>
         );
     }
