@@ -419,12 +419,11 @@ export default class MyRoadmap extends React.Component {
                         Within the first couple of months, I will learn:
                         <ul className={styles.listItem}>
                             <li>
-                                What products our company offers to developers
+                                What products Twilio offers to developers
                             </li>
-                            <li>The key priorities & goals of the company</li>
+                            <li>The key priorities & goals of Twilio</li>
                             <li>
-                                The business impact of DevRel and how the
-                                company feels about it
+                                The business impact of DevRel and how Twilio feels about it
                             </li>
                             <li>
                                 What the mononotization strategy is (how does
@@ -432,7 +431,7 @@ export default class MyRoadmap extends React.Component {
                             </li>
                             <li>
                                 What the developer culture is like and how they
-                                influence the company
+                                influence Twilio
                             </li>
                             <li>
                                 Where we are lacking and understand how to
@@ -443,7 +442,7 @@ export default class MyRoadmap extends React.Component {
                                 teams, to make improvements
                             </li>
                             <li>
-                                What is the company direction and where do
+                                What is Twilios direction and where do
                                 developers fit in
                             </li>
                             <li>

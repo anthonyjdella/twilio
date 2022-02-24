@@ -69,7 +69,15 @@ export default class ProductLifecycle extends React.Component {
                                     Create a presentation
                                 </li>
                                 <li className={stylesLifeCycle.description}>
-                                    Mimic the site to look like Twilio Docs
+                                    Mimic this site to look like{" "}
+                                    <Link href="https://www.twilio.com/docs">
+                                        <a
+                                            className={`${styles.link} ${styles.link1}`}
+                                            target="_blank"
+                                        >
+                                            Twilio Docs
+                                        </a>
+                                    </Link>
                                 </li>
                                 <li className={stylesLifeCycle.description}>
                                     Show my Top 5 favorite blog posts
@@ -178,7 +186,16 @@ export default class ProductLifecycle extends React.Component {
                                             }
                                         >
                                             Does this website look familiar? It
-                                            is based on Twilio Docs.
+                                            is based on{" "}
+                                            <Link href="https://www.twilio.com/docs">
+                                                <a
+                                                    className={`${styles.link} ${styles.link1}`}
+                                                    target="_blank"
+                                                >
+                                                    Twilio Docs
+                                                </a>
+                                            </Link>
+                                            .
                                         </li>
                                         <li
                                             className={

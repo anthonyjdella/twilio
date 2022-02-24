@@ -30,7 +30,7 @@ export default function About() {
               </ul>
 
               <h2>Hobbies and Likes</h2>
-              <p>🏀 🥊 🍣 ✈️ 🖌️ 🐶 📺</p>
+              <p>🏀 🥊 🎵 🍣 🏖️ 🇹🇼 🎮 ✈️ 🖌️ 🐶 📺 </p>
 
               <blockquote>
                   &quot;I can empathize and communicate with developers because
