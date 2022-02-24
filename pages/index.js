@@ -76,6 +76,17 @@ export default class Home extends React.Component {
 
             <main className={styles.mainGrid}>
                 <div className={styles.grid}>
+                    <Link href="/">
+                        <a className={`${styles.card}`}>
+                            <h2 className={`${styles.cardTitle}`}>
+                                Presentation &rarr;
+                            </h2>
+                            <p className={`${styles.cardBody}`}>
+                                My presentation for the Twilio interview.
+                            </p>
+                        </a>
+                    </Link>
+
                     <Link href="/what-are-apis">
                         <a className={`${styles.card}`}>
                             <h2 className={`${styles.cardTitle}`}>
@@ -120,6 +131,17 @@ export default class Home extends React.Component {
                             <p className={`${styles.cardBody}`}>
                                 I document my thought process during the
                                 creation of this website (so meta).
+                            </p>
+                        </a>
+                    </Link>
+
+                    <Link href="/about">
+                        <a className={`${styles.card}`}>
+                            <h2 className={`${styles.cardTitle}`}>
+                                About Me &rarr;
+                            </h2>
+                            <p className={`${styles.cardBody}`}>
+                                Just some background information about me and this website.
                             </p>
                         </a>
                     </Link>
