@@ -15,12 +15,21 @@
 }
 
 .mainTitle {
-  padding-top: 8rem;
+  padding-top: 4rem;
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 20rem;
+}
+
+.mainGrid {
+  padding-bottom: 2rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .title a {
@@ -109,38 +118,22 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 1000px;
-  margin-top: 2.5rem;
+  grid-gap: 4rem 3rem;
 }
 
 .card {
   margin: 1rem;
-  padding: 1.5rem;
   text-align: left;
   color: white;
   font-weight: 200;
   text-decoration: none;
   border: 1px solid #eaeaea;
-  border-radius: 10px;
+  border-radius: 4px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 400px;
   min-height: 200px;
   transition: transform ease 300ms;
-}
-
-.card1 {
-  background-image: linear-gradient(to right, #A2B8F9, #45339C);
-}
-
-.card2 {
-  background-image: linear-gradient(to right, #A456F6, #6666F1);
-}
-
-.card3 {
-  background-image: linear-gradient(to right, #47DB85, #25B6C4);
-}
-
-.card4 {
-  background-image: linear-gradient(to right, #3CB7F8, #616AF1);
+  box-shadow: 0 8px 48px 4px rgb(86 91 115 / 15%);
 }
 
 .card:hover,
@@ -158,6 +151,19 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+}
+
+.cardTitle {
+  color: #fff;
+  background: linear-gradient(160deg, #ae497b, #94538f);
+  padding: 1.5rem;
+  font-size: 2rem !important;
+  font-weight: 100 !important;
+}
+
+.cardBody {
+  color: #565B73 !important;
+  padding: 1.5rem;
 }
 
 .logo {
@@ -212,7 +218,8 @@
   width: 100%;
   color: white;
   font-size: 1.5rem;
-  padding: 1rem;
+  padding: 2rem;
+  padding-left: 4rem;
   padding-bottom: 2rem;
 }
 

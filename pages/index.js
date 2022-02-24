@@ -46,10 +46,12 @@ export default class Home extends React.Component {
                     <Image
                         src="/images/text-bubble.svg"
                         alt="text-bubble"
-                        width={250}
-                        height={200}
+                        width={350}
+                        height={300}
                     />
-                    <p className={styles.bubbleText}>Ahoy, thanks for this opportunity!</p>
+                    <p className={styles.bubbleText}>
+                        Ahoy, thanks for this opportunity!
+                    </p>
                 </div>
                 <div>
                     <h1 className={`${styles.title} ${styles.welcome}`}>
@@ -72,45 +74,57 @@ export default class Home extends React.Component {
                 </div>
             </main>
 
-            <div className={styles.grid}>
-                <Link href="/what-are-apis">
-                    <a className={`${styles.card} ${styles.card1}`}>
-                        <h2>What are APIs? &rarr;</h2>
-                        <p>Twilio provides many APIs, but what is an API?</p>
-                    </a>
-                </Link>
+            <main className={styles.mainGrid}>
+                <div className={styles.grid}>
+                    <Link href="/what-are-apis">
+                        <a className={`${styles.card}`}>
+                            <h2 className={`${styles.cardTitle}`}>
+                                What are APIs? &rarr;
+                            </h2>
+                            <p className={`${styles.cardBody}`}>
+                                Twilio provides many APIs, but what is an API?
+                                Check out this beginner article.
+                            </p>
+                        </a>
+                    </Link>
 
-                <Link href="/my-top-5">
-                    <a className={`${styles.card} ${styles.card2}`}>
-                        <h2>My Top 5 &rarr;</h2>
-                        <p>
-                            Here are my top 5 favorite technical blog posts
-                            (which I&apos;ve written).
-                        </p>
-                    </a>
-                </Link>
+                    <Link href="/my-top-5">
+                        <a className={`${styles.card}`}>
+                            <h2 className={`${styles.cardTitle}`}>
+                                My Top 5 &rarr;
+                            </h2>
+                            <p className={`${styles.cardBody}`}>
+                                Here are my top 5 favorite technical blog posts
+                                (which I&apos;ve written).
+                            </p>
+                        </a>
+                    </Link>
 
-                <Link href="/my-roadmap">
-                    <a className={`${styles.card} ${styles.card3}`}>
-                        <h2>My Roadmap &rarr;</h2>
-                        <p>
-                            Where I see myself in the future and my DevRel
-                            journey.
-                        </p>
-                    </a>
-                </Link>
+                    <Link href="/my-roadmap">
+                        <a className={`${styles.card}`}>
+                            <h2 className={`${styles.cardTitle}`}>
+                                My Roadmap &rarr;
+                            </h2>
+                            <p className={`${styles.cardBody}`}>
+                                Where I see myself at Twilio (hopefully) and
+                                along my DevRel journey.
+                            </p>
+                        </a>
+                    </Link>
 
-                <Link href="/product-lifecycle">
-                    <a className={`${styles.card} ${styles.card4}`}>
-                        <h2>Product Lifecycle &rarr;</h2>
-                        <p>
-                            I document my thought process during the creation of
-                            this website (so meta).
-                        </p>
-                    </a>
-                </Link>
-            </div>
-            {/* </main> */}
+                    <Link href="/product-lifecycle">
+                        <a className={`${styles.card}`}>
+                            <h2 className={`${styles.cardTitle}`}>
+                                Product Lifecycle &rarr;
+                            </h2>
+                            <p className={`${styles.cardBody}`}>
+                                I document my thought process during the
+                                creation of this website (so meta).
+                            </p>
+                        </a>
+                    </Link>
+                </div>
+            </main>
 
             <Footer />
         </div>
