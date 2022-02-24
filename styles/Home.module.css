@@ -1,15 +1,23 @@
 .container {
-  padding: 0 2rem;
+  /* padding: 0 2rem; */
   background-color: #F4FBFF;
 }
 
 .main {
-  /* min-height: 80vh; */
+  min-height: 80vh;
   padding: 4rem 0;
   padding-top: 8rem;
   flex: 1;
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainTitle {
+  padding-top: 8rem;
+  flex: 1;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 20rem;

@@ -41,7 +41,7 @@ export default class Home extends React.Component {
         <div className={styles.container}>
             <Meta />
 
-            <main className={styles.main}>
+            <main className={styles.mainTitle}>
                 <div className={styles.bubble}>
                     <Image
                         src="/images/text-bubble.svg"
