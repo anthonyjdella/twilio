@@ -2,8 +2,8 @@ import Link from 'next/link'
 import Meta from '../components/meta'
 import Footer from '../components/footer'
 import styles from '../styles/Home.module.css'
-import Confetti from 'react-dom-confetti';
 import React from 'react'
+import Image from "next/image"
 
 export default class Home extends React.Component {
   constructor(props) {
@@ -38,73 +38,82 @@ export default class Home extends React.Component {
 
   render() {
     return (
-      <div className={styles.container}>
-        <Meta />
+        <div className={styles.container}>
+            <Meta />
 
-        <main className={styles.main}>
-          <h1
-            className={`${styles.title} ${styles.welcome}`}
-            onClick={this._confetti}
-          >
-            Welcome! 🎉
-            <Confetti
-              active={this.state.showComponent}
-              config={this.state.confettiConfig}
-            />
-          </h1>
-          <h2>
-            This is&nbsp;
-            <Link href="https://anthonydellavecchia.com">
-              <a className={`${styles.link} ${styles.link1}`} target="_blank">
-                Anthony&apos;s
-              </a>
-            </Link>
-            &nbsp;DevRel Roadmap
-          </h2>
+            <main className={styles.main}>
+                <div className={styles.bubble}>
+                    <Image
+                        src="/images/text-bubble.svg"
+                        alt="text-bubble"
+                        width={250}
+                        height={200}
+                    />
+                    <p className={styles.bubbleText}>Ahoy, thanks for this opportunity!</p>
+                </div>
+                <div>
+                    <h1 className={`${styles.title} ${styles.welcome}`}>
+                        Anthony&apos;s
+                        <br />
+                        Twilio Interview
+                    </h1>
+                    <p className={`${styles.subtitle}`}>
+                        Please, take a look around. I created this to Be Bold
+                        and Don&apos;t Settle{" "}
+                        <Link href="https://www.twilio.com/company/values">
+                            <a
+                                className={`${styles.link} ${styles.link1}`}
+                                target="_blank"
+                            >
+                                (Twilio Values)
+                            </a>
+                        </Link>
+                    </p>
+                </div>
+            </main>
 
-          <div className={styles.grid}>
-            <Link href="/what-are-apis">
-              <a
-                className={`${styles.card} ${styles.card1}`}
-              >
-                <h2>What are APIs? &rarr;</h2>
-                <p>
-                  A beginner friendly article about APIs and why they&apos;re important.
-                </p>
-              </a>
-            </Link>
+            <div className={styles.grid}>
+                <Link href="/what-are-apis">
+                    <a className={`${styles.card} ${styles.card1}`}>
+                        <h2>What are APIs? &rarr;</h2>
+                        <p>Twilio provides many APIs, but what is an API?</p>
+                    </a>
+                </Link>
 
-            <Link href="/my-top-5">
-              <a className={`${styles.card} ${styles.card2}`}>
-                <h2>My Top 5 &rarr;</h2>
-                <p>
-                  Here are my top 5 favorite technical blog posts (which
-                  I&apos;ve written).
-                </p>
-              </a>
-            </Link>
+                <Link href="/my-top-5">
+                    <a className={`${styles.card} ${styles.card2}`}>
+                        <h2>My Top 5 &rarr;</h2>
+                        <p>
+                            Here are my top 5 favorite technical blog posts
+                            (which I&apos;ve written).
+                        </p>
+                    </a>
+                </Link>
 
-            <Link href="/my-roadmap">
-              <a className={`${styles.card} ${styles.card3}`}>
-                <h2>My Roadmap &rarr;</h2>
-                <p>Where I see myself in the future and my DevRel journey.</p>
-              </a>
-            </Link>
+                <Link href="/my-roadmap">
+                    <a className={`${styles.card} ${styles.card3}`}>
+                        <h2>My Roadmap &rarr;</h2>
+                        <p>
+                            Where I see myself in the future and my DevRel
+                            journey.
+                        </p>
+                    </a>
+                </Link>
 
-            <Link href="/product-lifecycle">
-              <a className={`${styles.card} ${styles.card4}`}>
-                <h2>Product Lifecycle &rarr;</h2>
-                <p>
-                  I document my thought process during the creation of this website
-                  (so meta).
-                </p>
-              </a>
-            </Link>
-          </div>
-        </main>
+                <Link href="/product-lifecycle">
+                    <a className={`${styles.card} ${styles.card4}`}>
+                        <h2>Product Lifecycle &rarr;</h2>
+                        <p>
+                            I document my thought process during the creation of
+                            this website (so meta).
+                        </p>
+                    </a>
+                </Link>
+            </div>
+            {/* </main> */}
 
-        <Footer />
-      </div>
+            <Footer />
+        </div>
     );
   }
 }

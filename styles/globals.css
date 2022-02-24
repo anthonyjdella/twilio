@@ -77,3 +77,8 @@ blockquote span{
   font-family: 'whitneymedium';
   src: url('../public/font/whitneymedium.woff') format('woff')
 }
+
+::selection {
+  background: #f22f46;
+  color: white;
+}

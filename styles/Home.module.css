@@ -1,15 +1,18 @@
 .container {
   padding: 0 2rem;
+  background-color: #F4FBFF;
 }
 
 .main {
-  min-height: 80vh;
+  /* min-height: 80vh; */
   padding: 4rem 0;
+  padding-top: 8rem;
   flex: 1;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
+  margin-left: 20rem;
 }
 
 .title a {
@@ -47,7 +50,7 @@
 }
 
 .link:hover {
-    color: #000;
+    color: #fff;
 }
 
 .link:focus {
@@ -58,16 +61,16 @@
 }
 
 .link1 {
-		border-bottom: .125em solid #ff6407;
-		box-shadow: inset 0 -0.125em 0 #ff6407;
+		border-bottom: .125em solid #f22f46;
+		box-shadow: inset 0 -0.125em 0 #f22f46;
 }
 
 .link1:hover {
-    box-shadow: inset 0 -1.125em 0 #ff6407;
+    box-shadow: inset 0 -1.125em 0 #f22f46;
 }
 
 .link1:focus {
-    background: #ff6407;
+    background: #f22f46;
 }
 
 .link2 {
@@ -170,10 +173,39 @@
   text-align: -webkit-center;
 }
 
-.welcome:hover {
-  cursor: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" height="64" width="64"><text y="28" font-size="32">🎊</text><path d="M0,2 L0,0 L2,0" fill="red" /></svg>'), auto;
-  box-shadow: inset 0 -1.125em 0 #482ff7;
+.welcome {
+  color: #233659;
+  font-size: 3.5rem;
+  font-weight: 200;
+  text-align: start !important;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 1;
+  line-height: 1.65;
+  width: 60%;
+  color: #565b73;
+  text-align: start;
+}
+
+.bubble {
+  position: relative;
+  min-height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10rem;
+  margin-right: 2rem;
+}
+
+.bubbleText {
+  position: absolute;
+  width: 100%;
   color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+  padding-bottom: 2rem;
 }
 
 @media (max-width: 600px) {
