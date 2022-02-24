@@ -44,8 +44,10 @@ export default class ProductLifecycle extends React.Component {
                 <Meta />
 
                 <main className={styles.main}>
-                    <h1 className={styles.title}>Product Lifecycle</h1>
-                    <h2>My design process for creating this website</h2>
+                    <h1 className={`${styles.title} ${styles.welcome}`}>
+                        Product Lifecycle
+                    </h1>
+                    <h2>My design/thought process for creating this website</h2>
 
                     <article className={stylesLifeCycle.article}>
                         <ul>
@@ -53,15 +55,22 @@ export default class ProductLifecycle extends React.Component {
                                 Step 1: Why This Website?
                             </li>
                             <p className={stylesLifeCycle.description}>
-                                I wanted to showcase my DevRel skills while
-                                using languages and tools that are new to me. I
-                                thought it&apos;d be a creative way to put
-                                myself out there.
+                                &quot;Normal&quot; PowerPoint presentations are
+                                boring! I believe there&apos;s a better way to
+                                improve every experience (and presentation). And
+                                what better way to do this than to package it up
+                                in a beautiful website?
                             </p>
                             <li className={stylesLifeCycle.listItem}>
                                 Step 2: List Requirements
                             </li>
                             <ul>
+                                <li className={stylesLifeCycle.description}>
+                                    Create a presentation
+                                </li>
+                                <li className={stylesLifeCycle.description}>
+                                    Mimic the site to look like Twilio Docs
+                                </li>
                                 <li className={stylesLifeCycle.description}>
                                     Show my Top 5 favorite blog posts
                                 </li>
@@ -70,8 +79,7 @@ export default class ProductLifecycle extends React.Component {
                                     to understand
                                 </li>
                                 <li className={stylesLifeCycle.description}>
-                                    Create a roadmap to plan my future in DevRel
-                                    and where I see myself
+                                    Create a roadmap
                                 </li>
                                 <li className={stylesLifeCycle.description}>
                                     Have fun and learn new things!
@@ -169,16 +177,16 @@ export default class ProductLifecycle extends React.Component {
                                                 stylesLifeCycle.description
                                             }
                                         >
-                                            Google Analytics so I can track my
-                                            traffic.
+                                            Does this website look familiar? It
+                                            is based on Twilio Docs.
                                         </li>
                                         <li
                                             className={
                                                 stylesLifeCycle.description
                                             }
                                         >
-                                            Try viewing things on mobile and
-                                            check out the 🍔 menu.
+                                            Google Analytics so I can track my
+                                            traffic.
                                         </li>
                                         <li
                                             className={
@@ -197,14 +205,6 @@ export default class ProductLifecycle extends React.Component {
                                         </a>
                                     </Link>
                                     <ul>
-                                        <li
-                                            className={
-                                                stylesLifeCycle.description
-                                            }
-                                        >
-                                            Hover over the &quot;Welcome&quot;
-                                            title, then click it for a surprise!
-                                        </li>
                                         <li
                                             className={
                                                 stylesLifeCycle.description
@@ -444,6 +444,48 @@ export default class ProductLifecycle extends React.Component {
                                 />
                                 <Image
                                     src="/design/deploy-5.png"
+                                    alt="Final Homepage"
+                                    width={600}
+                                    height={500}
+                                />
+                            </div>
+                            <div
+                                className={`${stylesLifeCycle.border} ${stylesLifeCycle.border2}`}
+                                onClick={this._confetti}
+                            >
+                                <Confetti
+                                    active={this.state.showComponent}
+                                    config={this.state.confettiConfig}
+                                />
+                                <Image
+                                    src="/design/deploy-6.png"
+                                    alt="More Features Homepage"
+                                    width={600}
+                                    height={500}
+                                />
+                                <Image
+                                    src="/design/right-arrow.svg"
+                                    alt="Right arrow"
+                                    width={300}
+                                    height={500}
+                                />
+                            </div>
+                            <div
+                                className={`${stylesLifeCycle.border} ${stylesLifeCycle.border3}`}
+                                onClick={this._confetti}
+                            >
+                                <Confetti
+                                    active={this.state.showComponent}
+                                    config={this.state.confettiConfig}
+                                />
+                                <Image
+                                    src="/design/left-arrow.svg"
+                                    alt="Left arrow"
+                                    width={300}
+                                    height={500}
+                                />
+                                <Image
+                                    src="/design/deploy-7.png"
                                     alt="Final Homepage"
                                     width={600}
                                     height={500}

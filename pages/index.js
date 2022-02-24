@@ -82,7 +82,7 @@ export default class Home extends React.Component {
                                 Presentation &rarr;
                             </h2>
                             <p className={`${styles.cardBody}`}>
-                                My presentation for the Twilio interview.
+                                My Developer Evangelist presentation to Twilio.
                             </p>
                         </a>
                     </Link>

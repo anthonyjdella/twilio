@@ -9,26 +9,26 @@ config.autoAddCss = false
 function MyApp({ Component, pageProps }) {
 
   return (
-    <>
-      <Script
-        strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=G-S6GPESDD8Q`}
-      />
+      <>
+          <Script
+              strategy="afterInteractive"
+              src={`https://www.googletagmanager.com/gtag/js?id=G-X22J3RT560`}
+          />
 
-      <Script id="googleAnalytics" strategy="afterInteractive">
-        {`
+          <Script id="googleAnalytics" strategy="afterInteractive">
+              {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-S6GPESDD8Q');
+          gtag('config', 'G-X22J3RT560');
         `}
-      </Script>
+          </Script>
 
-      <Menu>
-        <Component {...pageProps} />
-      </Menu>
-    </>
+          <Menu>
+              <Component {...pageProps} />
+          </Menu>
+      </>
   );
 }
 

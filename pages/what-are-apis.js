@@ -136,10 +136,11 @@ export default class WhatAreApis extends React.Component {
                 <Meta />
 
                 <main className={styles.main}>
-                    <h1 className={styles.title}>What are APIs?</h1>
+                    <h1 className={`${styles.title} ${styles.welcome}`}>
+                        What are APIs?
+                    </h1>
                     <h2 className={stylesApi.title}>
-                        A beginner-friendly article about APIs & why they are
-                        important
+                        APIs are a big part of Twilio, so what is an API? Check out this beginner-friendly article to learn more.
                     </h2>
 
                     <article className={stylesApi.article}>

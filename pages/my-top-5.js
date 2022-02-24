@@ -10,7 +10,9 @@ export default function MyTop5() {
             <Meta />
 
             <main className={styles.main}>
-                <h1 className={styles.title}>My Top 5</h1>
+                <h1 className={`${styles.title} ${styles.welcome}`}>
+                    My Top 5
+                </h1>
                 <h2>
                     These are some of my favorite technical blog posts (which
                     I&apos;ve written)

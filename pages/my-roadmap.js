@@ -133,9 +133,9 @@ export default class MyRoadmap extends React.Component {
                         ],
                     },
                     {
-                        title: "Get a Job in DevRel 💬",
+                        title: "Get a Chance with Twilio 💬",
                         description:
-                            "Find an opportunity with a good culture, good fit, and room for growth",
+                            "Hopefully grow my career with Twilio and their DevRel team",
                         id: "job",
                         label: "1 month",
                         laneId: "WIP",
@@ -392,11 +392,12 @@ export default class MyRoadmap extends React.Component {
                 <Meta />
 
                 <main className={styles.main}>
-                    <h1 className={styles.title}>My Roadmap</h1>
+                    <h1 className={`${styles.title} ${styles.welcome}`}>
+                        My Roadmap
+                    </h1>
 
                     <h2>
                         A visual representation of where I see myself heading
-                        (in terms of DevRel)
                     </h2>
 
                     <br />

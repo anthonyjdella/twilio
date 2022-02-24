@@ -54,7 +54,7 @@ export default function About() {
                   </Link>
                   &nbsp;created this from Feb 23-March 2, 2022 for his interview
                   with Twilio. It was meant to mimic the look of the{" "}
-                  <Link href="Twilio Docs.https://www.twilio.com/docs">
+                  <Link href="https://www.twilio.com/docs">
                       <a
                           className={`${styles.link} ${styles.link1}`}
                           target="_blank"
@@ -90,7 +90,7 @@ export default function About() {
 
               <p className={styles.description}>
                   Here&apos;s the{" "}
-                  <Link href="https://github.com/anthonyjdella/roadmap">
+                  <Link href="https://github.com/anthonyjdella/twilio">
                       <a
                           className={`${styles.link} ${styles.link2}`}
                           target="_blank"
