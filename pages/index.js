@@ -76,7 +76,7 @@ export default class Home extends React.Component {
 
             <main className={styles.mainGrid}>
                 <div className={styles.grid}>
-                    <Link href="/">
+                    <Link href="http://twilio-presentation.anthonydellavecchia.com/">
                         <a className={`${styles.card}`}>
                             <h2 className={`${styles.cardTitle}`}>
                                 Presentation &rarr;
